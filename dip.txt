@@ -1,0 +1,280 @@
+Abstract—This paper reviewed and focused on the background, optical properties, and applications
+of low-loss negative curvature hollow-core fiber. Data on spectral attenuation are expanded.
+The terms of indexes are Fiber optics, microstructured optical fiber.
+
+                            I. Introduction
+
+In the last few years, negative curvature hollow core optical fiber (NC-HCF) has emerged over a novel hollow core optical fiber (HCF)
+(Fig. 1) [1]–[8]. NC-HCF has been characterized by the inverted curvature of through its core wall, and most of the times exhibits multiple spectral transmission
+bands of low attenuation. The normal structure of the fiber cladding has allowed flexible tailoring of NC-HCFs design and dimension for specific
+wavelengths [4], [5], [7], [9]. Their first appearance of NC-HCFs have been applied in high power and ultrafast
+laser delivery [10]–[14] and also several other applications [15]–[20]. This paper comprises some of the sections: Section II
+consists of a short history of NC-HCF, while the optics of NC-HCF will be explained in Section III. From Sections IV
+to VI discueese the guidance properties of NC-HCFs are collated and summarized including mode attenuation, dispersion
+and nonlinearity. Section VII will be reviewed some applications of NC-HCFs and Section VIII will be contained conclusions.
+
+
+                        II. A BRIEF HISTORY
+A many years ago, “hollow core optical waveguides” was referred tolong cylindrical tubes and shapes of rectangular stripes made of dielectric
+or even metal. At the time of 1936, Carson et al. was studied the potential of hollow core fiber which was made of metal material for long haul
+electromagnetic wavetransmission theoretically [21]. After that, in 1964, Marcatili andSchmeltzer was studied the feasibility of using the dielectric HCF
+in telecommunications [22]. They demonstrated analytically which was the trade-off between modal leaky loss and bending loss would fundamentally limitation
+of the application of dielectric hollow core fiber for the reason of long-haul optical signal transmission. Althrough advances in inner-surface coating
+techniques, HCF was achieved success in some fields such as mid-infrared light transmission, particularly in CO2 laser delivery for industrial applications [23].
+At the end of the 20th century, the emergence of hollow core photonic bandgap fiber (HC-PBG) was boosted up the development of HCFs in the both theory and
+applications enormously [24], [25]. On the other hand, it brought in new ideas of light guidance in HCFs and boosted the development of fiber optics cable; and also,
+it techniqucally introduced micro-structure into optical fiber design, and was inspired by more novel designs of optical fibers. The state-of-the-art
+HC-PBGs had been already demonstrated extremely low transmission loss, comparable to the commercial optical fibers [26], [27]. That time “Kagome” fiber was 
+also another important type of HCFs that was firstly reported at the time 2002 [28]. The Kagome fiber was usually exhibited multiple transmission bands and 
+overall takes a broader spectral range than HC-PBGs. Numerical simulations display that the “Kagome” lattice supports no photonic bandgap which are made the Kagome
+fiber respectively [25], [29]. The presence of NC-HCF could be traced back to the discovery of the importance of core wall shape the in Kagome fiber in 2010 [30].
+A fiber of kagome with negative curvature core boundary unexpectedly exhibited a normal attenuation than regular one. A sets of subsequent experiments was confirmed
+the significance of core wall shape in the reduction of attenuation in such fibers [31].
+
+
+                     III. MODELING AND ANALYSIS
+
+NC-HCF has a simple design compared to HC-PBG and Kagome fiber [25], [29]. It has also no periodic cladding, and does not possess a photonic bandgap, 
+which is explained the leaky nature of such fiber. The leaky nature and antiresonant guiding mechanism are made it natural to make differnce from them. Both
+have multiple transmissions and similar attenuation structures at comparable wavelengths [34], [35]. Seeing the cladding of a Kagome
+fiber can be brought to jusone single layer without significantly increasing attenuation [36] we idea that the guidance in these two fiber designs is very
+closely. Though, the simple geometry of NC-HCF belies the lack of a general quantitative model of its performance. presently
+the modeling of NC-HCFs is depended heavily on numerical simulations. The model of Marcatili and Schmeltzer, the anti-resonant reflecting optical waveguide (ARROW)
+model and the coupledmode model are commonly used to describe the guidance mechanism of NC-HCFs and other leaky HCFs. The model of A.Marcatili and Schmeltzer’s
+in 1964, Marcatili and Schmeltzer firstly analytically showed the mode properties of the dielectric HCF [22]. In their project, they derived formulas
+of mode attenuation and loss of blending, which was revealed the basic properties of modes in HCFs. An ideal HCF is consisted of a circular core surrounding by
+infinite homogenous non-absorptive dielectric process of higher refractive index than the core material.
+Due to the reason of inverting refractive index contrast, total internal reflection cannot be occured when the light is incident from the core
+at the interface between core and cladding. The partial reflectivity of the core boundary is indicated inevitable loss for light
+propagating in the core. The mode of attenuation and corresponding propagation are written as [22],
+
+ανm = u2νm π 2 λr32 Re (Vν) (1)
+βνm = 2π
+λ ncore − 1 2 u2νm πrλ2 1 + Im Vπr νλ . (2)
+
+Here uνm is the zero of the Bessel function Jν−1, and both ν and m are azimuthal and radial number of mode; wavelength is λ; core radius is r; 
+the refractive index of core medium is ncrore; Here constant Vν is determined by the cladding refractive index and mode order [22]. Equations (1) and (2) are
+the most basic rules or formula to understand modes in all leaky HCFs. When r/λ grows bigger, the modes of attenuation is quickly reduced. For a specific order,
+a higher propagation constant is needed to satisfy the transverse resonance condition in a bigger core. Such larger core would give a expanded gancing angle
+of light incident at the core boundary, which gives in a higher Fresnel reflection. Atlast, the mode in a larger core has a little attenuation.
+The model of Marcatili and Schmeltzer’s fails when complex structures are presented to the cladding of HCF. The multiple reflections from the designed cladding
+can minimize or increase the attenuation of leaky modes by constructive/destructive interference, and it also affects the dispersion of modes too.
+
+
+                                        B. ARROW Model
+
+The model of ARROW was firstly proposed in 1986 to describe the enhanced confinement in a planar waveguide with a series of high-low index regions forming
+the cladding [37]. At the time of 2002 it was used to explain the light transmission in HC-PBG [38]. Soon it had being applied to a range of micro-structured HCFs.
+The ARROW model is a 2-D model which can be extend to three dimensions. It calculates the cladding of HC-PBG as an array of high and low refractive index layers.
+Each index layer of higher refractive can be considered as a Fabry–Perot resonator as in Fig. 2, which can enhance or decrease the confinement of light in
+the air core under different resonant or antiresonant conditions. For r/λ we have β ≈ 2πn1/λ according to (2). In Fig. 2, the wavelength is calculated as,
+
+λm =
+2n1d
+m n n2 1 2 − 1 (3)
+
+
+Here n1, n2 are low and high material refractive indices; d for the thickness of high index layer; and m is an integer value, presenting the
+order of resonance. At the resonance wavelength, the core mode offers enhanced attenuation leaking through the high index layer. At wavelength
+away from the resonance, the reflectivity of higher index layer increases and the attenuation of the leaky mode is decreased. For the reason, the spectral transmission
+of ARROW waveguide features multiband transmission, matching to that of a Fabry–Perot resonator. The band edge of the transmission is well defined by the
+resonance wavelength. It is worth observing that the Bragg reflection can not be  replaced by the ARROW model to explain HCFs [38]. Changing the pitch
+of the higher index layer in the cladding barely shift the band edge in simulation. This is also beared by the experimental demonstration of Kagome fiber. 
+At the Kagome fiber, it has been shown that reduction of the number of cladding layers does not significantly improve the fiber loss or shift the transmission
+band positions [36]. Atlast, we conclude that the single-layer property of cladding plays a most vital role when applying ARROW model to HCFs.
+The loss edge of transmission band can be predicted by ARROW when d/λ  1. At bigger wavelength, corresponding to the spectral range below
+the m = 1 resonance, the ARROW model is no bigger useful. It is a well-established model which fits well with experimental results.
+Although it can be precisely predicted the band edge of transmission, it cannot provide further insight into the band properties.
+
+                             C. Coupled-Mode Model
+
+The coupled-mode model is applied coupled mode theory [39] to examine the properties of HCFs based on Marcatili and Schmeltzer’s model.
+In real HCFs, the cladding has no longer an infinite and homogenous medium but it has a complex configuration of refractive index distribution.
+The cladding modes are a set of modes adding both dielectric modes (see Fig. 3(a) top) localized in the high index regions and leaky air
+modes (see Fig. 3(a) bottom) inside low index region [40], [41]. In the model of coupled-mode, the properties of core mode are explicated as results of
+the longitudinal coupling with those cladding mode. The method was successfully applied in examinig the formation of bandgaps in HC-PBG [42].
+From this method, inhibited coupling had proposed to explain the guidance in Kagome fiber [29]. At the time of 2007, Argyros and his colleagues applied the coupled
+mode theory to the square lattice polymer HCF and quantitatively examined the formation of band edges of leaky HCF [43]. They target out that the 
+absolute phase matching is not important to achieve an effective coupling between the cladding and core modes. Δβ ∼ 10−4 m was the threshold to
+estimate the transmission band edge, which similared well with the experimental measurement [43]. At the time of 2012 Vincetti and Setti applied this method to NC-HCF and
+presented detail of cladding mode feature in NC-HCF [41]. After that, they used this method to demonstrate that the geometry of cladding element was necessary
+to determine the confinement loss of HCFs. The polygonal shaped tube in the cladding is added extra loss due to the Fano-like coupling between the core and
+cladding modes [44]. This can be used to describe the different spectral features between NC-HCFs and Kagome fiber.
+
+                           D. Function of Core Wall Shape
+
+NC-HCFs is characterized by the negative curvature of the core wall, which has been experimentally demonstrated to effectively reduce
+the attenuation. Numericalsimulations (Fig. 6) showed that in NC-HCF increases negative curvature and it influences the mode attenuation and even bending
+loss in a complex way [45]. It has been confirmed that a large curvature of the core wall can be helped decreasing the overlap
+of core field with fiber material to 10−4. This has been experimentally demonstrated in silica NC-HCFs [9], [45] 
+(further discussions will be found in Section IV-B). The recent efforts in analytical examine [46], the function of the core wall shape is
+not is clear yet. It shows that both the properties of the high-index and of the low-index cladding modes are affected by the curvature.
+
+                            IV. GUIDANCE PROPERTIES—MODE ATTENUATION
+
+A typical NC-HCF sets multiple transmission bands, and the band edges are being determined by the resonance wavelength of cladding as described by
+the ARROW model. From experimentally study the fiber attenuation, we use the method of standard cutback [47]. At HCFs there is no cutoff situation for high
+order modes. All modes are existed at the same time but with different attenuations. High order modes are seldom noticed in the propagation over
+long length because of their far higher attenuation and more sensitivity to bend. In the order of low band of HC-NCF (determined by low order
+resonance wavelengths of cladding), because of relatively little r/λ ratio, the output is usually attached of the fundamental mode, or at most a few modes.
+In controlling the cutback length and the residual fiber length, the cutback method can use to obtain a reliable measurement of fundamental mode attenuation.
+In the time of 2013, Yu and Knight were reported a systematic study of the mode attenuation in one transmission band between the first and second resonant wavelength
+in NC-HCFs with the ice-cream-cone shape cladding [9]. 50 fimilar NC-HCFs were drawn for different spectral ranges were fabricated and measured. Among all them, the
+NC-HCFs with the minimum attenuation in their spectral ranges were selected for studying [9]. Fig. 4 summarizes those minimum attenuations were reported in
+[9] and latest result of this types of NC-HCFs [13], [18]. Table I list details information of NCHCFs in Fig. 4, including the figures of minimum
+attenuation and wavelength, the span of first transmission band, and core diameter. The minimum attenuation were 53.8 dB/km at 687.4 nm
+and the majority of core diameters were reported here for the first time. In Fig. 4, the attenuation is occured by different factors
+in different spectral range. Those factors include the material absorption at the longest wavelength, leakage loss at mid-range
+wavelength and “imperfection” loss at visible wavelengths and into the ultraviolet.
+
+
+                        A. Leakage Loss
+
+The leakage loss is the basic part of mode attenuation of NC-HCFs. Compare to conventional fiber, NC-HCF’s is profoundly different in
+this respect because they have no strictly confined mode. Increasing r/λ, the mode attenuation can be effectively brought down according to (2). 
+Normally, a NC-HCF with a large core can be awasited to have lower loss. According to the (1), the loss of leakage α ∝ r−1 if r/λ remains
+constant. This is the natural outcome from the dimensional scaling law of electromagnetic field in HCFs [41]. All the fibers in Fig. 4
+are designed to be fabricated similarly, and expected to display similar structures but scaled for the different
+wavelength of operation. In Table I, r/λm is varied from 12.7 to 16.0 and the average result is 14.6. Those fibers show high similarity apart from minor 
+exception. We should expect the minimum attenuation with wavelengths to justify α ∝ r−1. In Fig. 4, a fit to the data notices scaling with wavelength as
+λ−0.998 in the near-infrared spectrum from 1.2 to 3 μm, consistent with the idea. At shorter and bigger wavelength, different dependences imply 
+that different loss mechanism other than leakage loss start to dominate, which will be explained in Sections IV-B and IV-C
+In NC-HCF, decreasing the core wall thickness is another important way to reduce the attenuation of NC-HCFs. Fig. 5 is showing simulated attenuation spectra
+of NC-HCF for different core wall thicknesses [9]. Both axes are generalized by fiber core dimension. η is set as the ratio of inner over outer diameter of
+capillary forming of the core wall. The other side bigger η is, the thinner core wall thickness is. From Fig. 5, we realize that the leakage loss of NC-HCF is
+decreased with thinner core wall thickness. At the other hand, the transmission window is wider, as forecasted by ARROW model. The leaky “airy” mode is in the hollow
+regions of the cladding lately has been numerically showed as another source of leakage loss [6], [32], [48]. The leakage loss in NC-HCFs
+can be further decreased and potentially reached 1 dB/km or even less by reducing the mode coupling between the core mode and air mode of cladding [6].
+To decrease the coupling, extra capillary or finer structure can be attached into cladding bores, shifting the air modes away from the propagation constant
+of the core and hence decreasing the loss through this mechanism [6].
+
+                     B. Material Absorption
+
+In HCFs, the light is transmitted between the hollow core, the fiber material is weakly influenced the core mode properties,
+including the attenuation. The share of material absorption to the total loss in NC-HCFs appears from the mode overlap
+with the fiber material. Fig. 4 inset displays the simulated contribution to the mode attenuation at NC-HCF from the absorption
+of the cladding material. For a distinct NC-HCF, the simulated mode attenuation is increased linearly with material absorption, as
+awaited for low absorption. At NC-HCFs, it has been demonstrated that the mode overlap could be as low as 10−4 [9].
+Numerical simulations are agreed well with the experimental result (Fig. 6) [45]. Though the influence from fiber material in NC-HCF is small scale,
+material loss can be still dominated the mode attenuation when material attenuation will reach thousands of dB/m. Fused silica and softer glasses are
+the most general material for fiber fabrication. Fused silica is exhibited excellent transparency in the visible and near-infrared spectral region, where 
+the absorption of fiber material can be passed over [49]. However the phonon absorption is increased quickly at longer wavelength,
+and the material absorption is rised rapidly from tens of dB/m at 3 μm to tens of thousands of dB/m beyond 5 μm wavelengths
+[49], [50]. Such high loss is as the major factor limiting the performance of NC-HCFs at long wavelength [3], [10], [11].
+In Fig. 4, all NC-HCFs are made of F300 synthetic fused silica. 865 dB/m was being measured at 4 μm wavelength [9]. The
+effect of material absorption on fiber loss is estimated around 6000 times less than the material absorption due
+to the very average overlap of the guided mode with the glass at these long wavelength by Comsol. Scaling the measured
+material absorption by this factor and attaching it to the predicted leaky loss from Comsol, the total fibers loss were to increase rapid
+with material absorption and to be controlled the attenuation of NCHCF in this spectral range. Minimum attenuation was
+found to be 85 dB/km at 4 μm wavelength, which was measured as 10 000 times less than the measured silica absorption.
+Soft-glasse, such as chalcogenide and fluoride, possess a much lower absorption in the mid-range-infrared region up to 10 μm
+and has been widely adopted as optical fiber material for the mid-IR [23]. At the time of 2000, the first use of soft-glass to fabricate
+HCF was being demonstrated [51]. At the time of 2010, more complex structured HC-PBG was successfully fabricated with chalcogenide glass [52].
+Because of the low material absorption, NCHCFs is made of soft-glasses should achieve much lower loss
+than those formed from silica at the long wavelength in the mid-range-infrared. Though, measured result was of the order of
+several dB/m or even worse [2]. It was the reason of the very sensitive viscosity/temperature relation of soft-glass materials, it is
+technically giving challenges to obtain uniform and delicate holey structure in HCFs, which measures the optical properties of
+fiber. Compare to the mature state of silica fabrication, the processing route for purification and fiber drawing still needs
+improvement to get achievement the theoretical performance limits for these materials.
+
+
+                     C. “Imperfection” Loss
+
+In the fabrication of HCFs, it had been the challenge to scale down the dimension for shorter wavelength by the nearinfrared 
+and into the range of visible. When the fiber gets smaller, the balance both the surface tension and pressure in the fiber
+cladding will become unstable, impacting more frequent deformation leading to increase attenuation [53]. The extra loss of HCF
+rises from the “imperfection” of the fiber structure. In Fig. 4, a substantial increase of attenuation is being found in
+Fibers 4, 5, and 6 (see Table I) at smaller wavelength [9]. They were being drawn from a same group of preforming with dimension
+scale for different transmission window. To improve the “imperfection” degradation, a shorter draw-down ratio was used
+to fabricate Fibers 1, 2 and 3 (see Table I). In the fabrication of Fibers 1, 2 and 3, fluorine doped glass tube rather than plain
+silica tube was used to jacket the silica action in the final draw to fiber. To compare those drawn using a pure silica jacket,
+the fluorine-doped jacketed fiber was exhibited much lower loss and less structural degradation, though they were no difference
+from the silica fiber in dimension. We are attributed this to the decreased viscosity of the fluorine doped material, which allows
+the fiber to be drawn under more favorable condition. Fig. 7(a), (b) and (d) represents SEM images of Fiber 5, 3 and
+2, and (c) is an optical microscope images of Fiber 4. Fibers 5 and 3 (silica jacket) are both drawn for light transmission near 1 μm 
+with alike core size. Fiber 4 and 2 (fluorine jacket) also have most part of transmission band intersected between 750 and 850 nm. 
+Fiber 3 is exhibited a much lower attenuation than Fiber 5. The most significant difference could be found in core wall curvatures, which is found in comparison
+between Fiber 4 and 2. In the Fiber 4, the fusion between capillaries has been changed from point into slab. Such defect is most common in smaller 
+NCHCFs for shorter wavelength in the visible and near-infrared ranges. Extra “imperfection” loss was being measured in Fiber 4 in
+comparison to Fiber no 2. The fiber structure of degradation, including the slab fusion in cladding and also flattened core wall
+curvatures, shares to the increased attenuation at the short wavelength. In the NC-HCF, there had been no experimental evidence sharing
+the “imperfection” loss at lower wavelengths to the scattering due to the surface roughness. But it might also be worth in future to
+explore if such effect could be one factor limiting the attenuation performance of NC-HCFs at lower wavelength.
+The loss of scattering due to the core wall roughness had been identified as one of the major reason limiting the ultimate attenuation
+of HC-PBG [27], [54]. The surface roughness of core wall is being inevitably formed along HCF because of the thermodynamics
+are processed in the fabrication, which is being attributed to surface capillary wave frozen at the interface of silica in the transition temperature 
+range [55]. Like microscopic fluctuation is being usually under one nanometer over a micrometric scale, but like roughness is
+enough to dominate the loss limit of HCFs, especially at lower wavelength. The scattering effect may cause the minimum attenuation with
+wavelength to be proportional to λ−a in log-log, where a will vary from 2.5 to 3.5 according to the structure of the HC-PBG [27], [56].
+
+
+           V. GUIDANCE PROPERTIES—BENDING LOSS
+
+Normally, bending loss in optical fiber could be categorized into macro-bending and micro-bending according to the loss
+mechanism [47]. Micro-bending are refered to the periodic or random deformation of the index of refractive distribution or of the geometry of 
+optical fiber along with the length, which could be caused the energy to couple between the core mode and cladding mode
+if the deformation changes sufficiently rapidly along the fiber axis [57]. The loss mechanism of micro-bending is being essentially a
+scattering phenomenon, which has no interest of this section. The bending effect here are refered to the macro-bending which will account
+for the extra loss associated with the curved guidance when the fiber is being bent. The origin of bending loss of NC-HCF could be generally 
+categorized as original bending loss, high order core mode of conversion, and enhanced radiative or absorptive loss. Both Kosolapov and colleagues numerically
+and experimentally are showed that at certain bending radii, the phase matching condition would be satisfied between the core mode and cladding
+air mode which gave the result in extreme high losses [2]. Yu et al. would find that the bending loss was increased more rapidly at lower
+wavelength in the spectral transmission window [3]. The wavelength dependence was being experimentally observed in
+HC-PBG and all solid PBG [58], [59]. Setti et al. numerically would find that the bending effect depended on wavelength was because of the shift of band edge
+of transmission window to the bigger wavelengths [4]. Belardi et al. would find that NC-HCF with open
+core boundary exhibited much low bending sensitivity than the other NC-HCFs [8]. Jaworski et al. would measure the correlation between 
+the bending loss and the bending radius in NC-HCFs [13], [14]. From their knowledge, low bend of losses were found in NC-HCFs
+with lower mode attenuations [13]. 
+
+
+A. True Bend Loss
+
+
+The model of Marcatili and Schmeltzer, such loss could be determined by a correction of mode attenuation of a
+straight fiber in the bending condition. It is written as,
+
+ανm =
+r3
+λ2R2 ReVνm. (4)
+
+Here bending radius is R. Equation (4) shows that the bending loss will grow faster
+than the bending curvature. For a particular fiber, wavelength, ανm ∝ R−2. The bending loss dependence was also
+showed by numerical simulations in NC-HCF [4] and similar with the observation in measurement [8], [13], [14].
+From equcation (4), the bend loss could be traded off with the leakage loss like a function of core. In the design, to get
+lower transmission loss, a big core is preferable though it causes a higher bending loss.
+
+
+B. High Order Core Mode Conversion
+
+
+At the time of 1969, Marcatili was pointed out that higher order mode conversion was the major loss mechanism in the high refractive index
+core waveguide [60]. He was demonstrated that, under the multimode guidance, the loss originating from high order conversion modes
+are many orders of magnitude larger than the radiated loss of the fundamental mode reason of bending.
+NC-HCF exhibited lossy multimode guidance property. The high order mode conversion was a notable reason for high
+bending loss in NC-HCFs. More works are needed to investigate such effects in HCFs.
+
+
+C. Enhanced Radiative/Absorptive Loss
+
+The coupling between the core and cladding modes could be greatly lighted at specific wavelength in the bent condition.
+On the hand, the phase matching condition could be satisfied or nearly satisfied between the mode of core and cladding in
+the bent fiber. This has been overviewed both numerically and experimentally [2], [4], [61]. Such resonances are cause well-defined
+and significant lossed peaks in the transmitted spectrum system. On the other side, bending is also increased the overlap between
+core modes and cladding materials. By using the method of conformal transformation [62], the equivalent refractive index distribution
+of NC-HCF under bending is made core mode closer to one side of the core mode. At the long wavelength where the fiber materials
+are absorptive or at the short wavelength where surface roughness of core wall causes is dramatic scattering loss, there might be an
+associated develop in observed bend loss.
+
+                REMARKS
+
+This paper narrates the very rapid progress made over the recent few years in developing new form of hollow optical fiber, 
+and also shows early indication of their potential application. It is not broad, and we expect that it will become 
+quickly out of date with the continuing progress in fiber design and application. The work opens up a 
+range of possible future direction, and we hope further quick progress will lead to yet more potential application. Though, progress so far has already displayed
+that it is feasible to design simple novel fiber which can perform conventional 
+optical fibers in many ways.
+
+
+
+
+

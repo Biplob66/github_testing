@@ -1,0 +1,17 @@
+Introduction
+
+The implementation processes and systems of cybersecurity 
+is often noticed to be insufficient in ensuring that the Confidentiality, Integrity, Availability, and Authenticity (CIAA)
+of information is achieved. For this, 
+the processes and techniques of digital forensic are often required to investigate
+potential security issues and digital crimes if the CIAA is surpassed. 
+If it carefully rebuilted, may assist in
+developing a security strategy that can be used in stronging
+systems. though, digital forensics as made
+by a team of researchers in 2001 was presented as ‘‘the
+use of scientifically derived and vindicated methods toward the
+preservation, collection, validation, identification, analysis,
+interpretation, documentation, and presentation of digital
+record derived from digital sources to facilitate or further
+the rebuilted of events found to be criminal or helping
+to relate disallowed actions shown to be disruptive to planned operations’’.

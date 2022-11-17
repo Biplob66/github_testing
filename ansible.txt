@@ -1,0 +1,38 @@
+Ansible Configuration
+---------------------
+# yum install ansible -y
+# ansible --version
+# yum install net-tools bash-completion -y
+
+Generate SSH Key Pair
+---------------------
+# ssh-keygen
+
+Copy Public Key into Target Server
+-----------------------------------
+# ssh-copy-id root@192.168.0.51
+# ssh-copy-id root@192.168.0.52
+
+Configure Ansible Hosts
+-----------------------
+# vi /etc/ansible/hosts
+
+  [servers]
+  node_1 ansible_host=192.168.0.51 ansible_user=root
+  node_2 ansible_host=192.168.0.52 ansible_user=root
+
+Ping the host using Ansible ping module
+---------------------------------------
+# ansible -m ping all
+# ansible -m ping node_1
+# ansible -m ping node_1
+
+Run shell command on all the servers in parallel using the shell module of Ansible
+----------------------------------------------------------------------------------
+# ansible -m shell -a 'yum update -y' all
+# ansible -m shell -a 'yum install nagios -y' all
+
+Run command on a single host
+----------------------------
+# ansible -m shell -a 'free -h' node_1
+# ansible -m shell -a 'free -h' node_2
